@@ -1,0 +1,76 @@
+@-moz-document url-prefix(about:home), url-prefix(about:newtab) {
+    body {
+        background-color: rgb(12, 7, 39) !important;
+		background-image: url(josh-hild-unsplash.jpg) !important;
+    }
+
+	.search-handoff-button {
+		/* From https://css.glass */
+		background-color: rgba(0, 0, 0, 0.4) !important;
+		color: rgb(255, 255, 255) !important;
+		border-radius: 16px !important;
+		box-shadow: 0 8px 30px rgba(0, 0, 0, 0.6) !important;
+		backdrop-filter: blur(6px);
+		border: 1px solid rgba(255, 255, 255, 0.3) !important;
+		transition: 0.3s;
+	}
+
+	.search-handoff-button:hover {
+		box-shadow: 0 12px 30px rgba(0, 0, 0, 0.6) !important;
+		transform: scale(1.01);
+		backdrop-filter: blur(3px);
+	}
+
+	.weatherCard {
+		background-color: rgba(0, 0, 0, 0.4) !important;
+		color: rgb(255, 255, 255) !important;
+		border-radius: 16px !important;
+		box-shadow: 0 4px 15px rgba(0, 0, 0, 0.8) !important;
+		border: 1px solid rgba(255, 255, 255, 0.3) !important;
+		transition: 0.3s;
+	}
+
+	.weatherCard:hover {
+		box-shadow: 0 8px 15px rgba(0, 0, 0, 0.8) !important;
+	}
+
+	.weatherInfoLink {
+		backdrop-filter: blur(10px);
+		transition: 0.3s;
+	}
+
+	.weatherButtonContextMenuWrapper {
+		backdrop-filter: blur(10px);
+		transition: 0.3s;
+	}
+
+	.weatherInfoLink:hover {
+		background-color: unset !important;
+		backdrop-filter: blur(2px);
+	}
+
+	.weatherButtonContextMenuWrapper:hover {
+		background-color: unset !important;
+		backdrop-filter: blur(2px);
+	}
+
+	.wordmark {
+		filter: invert(1) drop-shadow(0 2px 2px rgba(0, 0, 0, 0.4));
+		transition: 0.3s;
+	}
+
+	.wordmark:hover {
+		filter: invert(1) drop-shadow(0 4px 4px rgba(0, 0, 0, 0.6));
+		transform: scale(1.1);
+	}
+
+	.logo {
+		filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.4));
+		transition: 0.3s;
+	}
+
+	.logo:hover {
+		filter: drop-shadow(0 6px 8px rgba(0, 0, 0, 0.6));
+		transform: scale(1.1);
+	}
+}

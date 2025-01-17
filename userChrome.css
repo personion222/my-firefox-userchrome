@@ -1,0 +1,18 @@
+.tab-background[selected] {
+    /* From https://css.glass */
+		background-color: rgba(0, 0, 0, 0) !important;
+		color: rgb(255, 255, 255) !important;
+		border-radius: 8px !important;
+		box-shadow: 0 4px 3px rgba(0, 0, 0, 0.4) !important;
+		backdrop-filter: blur(15px);
+		border: 1px solid rgba(255, 255, 255, 0.3) !important;
+}
+
+#urlbar-background {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+	color: rgb(255, 255, 255) !important;
+	border-radius: 8px !important;
+	backdrop-filter: blur(500px) !important;
+	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3) !important;
+	border: 1px solid rgba(255, 255, 255, 0.3) !important;
+}
